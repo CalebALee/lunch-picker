@@ -7,14 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 
 //Components
-import { AppComponent } from './app.component';
-import { NavigationBarComponent } from './layouts/navigation-bar/navigation-bar.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavigationBarComponent,
     FooterComponent
   ],
   imports: [
@@ -23,6 +19,5 @@ import { FooterComponent } from './layouts/footer/footer.component';
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
